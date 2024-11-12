@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Barra lateral de contatos -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="https://logospng.org/download/whatsapp/logo-whatsapp-verde-icone-ios-android-4096.png" alt="Logo WhatsApp" class="logo">
+            <H1> WhatsApp2</H1></div>
+            <div class="contacts-list">
+                <!-- Lista de conversas gerada dinamicamente -->
+            </div>
+        </aside>
+
+        <!-- Área de conversas -->
+        <section class="chat-container">
+            <div class="chat-header">
+                <div class="chat-contact-name">Selecione um contato</div>
+            </div>
+            <div class="chat-box">
+                <div class="chat-content">
+                    <!-- As mensagens da conversa aparecerão aqui -->
+                </div>
+            </div>
+            <div class="chat-input">
+                <button id="emoji-btn">😀</button>
+                <input type="text" placeholder="Digite uma mensagem..." id="message-input">
+                <input type="text" placeholder="Link da imagem..." id="image-input">
+                <button id="send-message-btn">Enviar</button>
+            </div>
+            <!-- Barra de Emojis -->
+            <div id="emoji-picker" style="display: none;">
+                <span class="emoji">😀</span>
+                <span class="emoji">😂</span>
+                <span class="emoji">😍</span>
+                <span class="emoji">😎</span>
+                <span class="emoji">😢</span>
+                <span class="emoji">😜</span>
+                <span class="emoji">👍</span>
+                <span class="emoji">🙏</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
